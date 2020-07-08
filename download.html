@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>资源中心</title>
+		<link rel="icon" href="img/studio_logo.png" />
+		<link rel="shortcut icon" href="img/studio_logo.png" />
+		<style>
+			* {
+				font-size: 20px;
+			}
+			
+			a {
+				text-decoration: none;
+				color: #55aaff;
+				display: block;
+				transition-property: color, text-shadow;
+				transition-duration: 0.5s;
+			}
+			a:hover {
+				color: #2a91d0;
+				text-shadow: 3px 3px 3px #555555;
+			}
+			
+			a.oot {
+				color: #555555;
+			}
+			
+			caption {
+				font-size: 30px;
+				width: 100%;
+				text-align: center;
+				font-weight: 550;
+				margin: 10px 0px;
+				color: #ff9900;
+			}
+			
+			table {
+				text-align: center;
+				width: 100%;
+				border-spacing: 15px 2px;
+			}
+			
+			table th {
+				font-weight: bold;
+			}
+			
+			table tr th {
+				border-bottom: 1.5px solid #c2c2c2;
+			}
+			
+			table tbody tr td[name] {
+				width: 40%;
+			}
+			
+			table tbody tr td[ver] {
+				width: 20%;
+			}
+			
+			table tbody tr td[by] {
+				width: 25%;
+			}
+			
+			*[title] {
+				cursor: default;
+			}
+			
+			table tbody tr td[download] {
+				width: 15%;
+			}
+			
+			much {
+				font-family: simsun;
+			}
+			
+			.swal-overlay {
+			  background-color: unset;
+			}
+			.swal-modal {
+			  background-color: rgb(205, 255, 217);
+			}
+		</style>
+	</head>
+	<body>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<table>
+			<caption>地图</caption>
+			<tr>
+				<th>名称</th>
+				<th>适用版本</th>
+				<th>首席作者</th>
+				<th>下载</th>
+			</tr>
+			<tbody>
+				<tr>
+					<td name >起床战争2.0</td>
+					<td ver >1.15.2</td>
+					<td by >TheColdPot</td>
+					<td download >
+						<a href="download/zip/VGhlQ29sZFBvdEZpbGUwMDE=" download="起床战争2.0.zip">.zip</a>
+					</td>
+				</tr>
+				<tr>
+					<td name >起床战争3.0</td>
+					<td ver >1.16.1</td>
+					<td by ><much onclick="swal('名单:\nTheColdPot\nJack_Gu\nBlock_Stars\nXiaoZhe')">4名作者</much></td>
+					<td download >
+						-
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<!--These files are base64 name+File+Num like 'TheColdPotFile001' -->
+		<br />
+		<table>
+			<caption>资源包</caption>
+			<tr>
+				<th>名称</th>
+				<th>适用版本</th>
+				<th>作者</th>
+				<th>下载</th>
+			</tr>
+			<tbody>
+				<tr>
+					<td name >原版PVP材质1.0</td>
+					<td ver >1.15.x - 1.16.x</td>
+					<td by >TheColdPot</td>
+					<td download >
+						<a href="download/zip/VGhlQ29sZFBvdEZpbGUwMDI=" download="原版PVP材质1.0.zip">.zip</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

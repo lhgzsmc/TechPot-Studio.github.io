@@ -1,0 +1,55 @@
+---
+permalink: /404.html
+---
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>404 Not Found</title>
+		<link rel="icon" href="https://techpot-studio.github.io/img/studio_logo.jpg" />
+		<link rel="shortcut icon" href="https://techpot-studio.github.io/img/studio_logo.jpg" />
+		<style>
+			@font-face {
+				font-family: "UniSansHeavyCAPS";
+				src: url("https://techpot-studio.github.io/css/UniSansHeavy.otf");
+			}
+			
+			h1 {
+				font-family: UniSansHeavyCAPS;
+				font-size: 50px;
+				color: #006700;
+			}
+			
+			* {
+				font-size: 18px;
+				font-family: "Segoe UI", "微软雅黑", "Segoe";
+			}
+			
+			html, body {
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				height: 100%;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		<script>
+			window.onload = function() {
+				document.getElementById("location").innerHTML = decodeURI(window.location.pathname)
+			}
+		</script>
+		<div style="display: table; width: 100%; height: 100%;">
+			<div style="display: table-cell; width: 100%; width: 100%; vertical-align: middle; text-align: center;">
+				<h1>404&nbsp;Not&nbsp;Found</h1>
+				<p>
+					在 <span id="location" style="color: #676767;">undefined</span> 上，我们没有找到任何内容<br />
+					请检查您输入的网址是否正确<br />
+					<a class="n-a" href="javascript:window.location.href = window.location.origin;" style="color: #2A91D0;">点此</a>返回主页
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

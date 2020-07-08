@@ -1,0 +1,47 @@
+div#welcome {
+	background-image: url(../img/minecraft-screenshot.jpg) !important;
+	background-color: #5b5b5b;
+	background-repeat: no-repeat;
+	height: 70%;
+	padding-top: 100px;
+	padding-left: 100px;
+	color: white;
+	font-size: 25px;
+}
+div#welcome span {
+	font-size: 30px;
+}
+
+.button-radius-1 {
+	padding: 10px 20px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+div#download {
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+a[example] {
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	transition-property: color;
+	transition-duration: 0.2s;
+	text-decoration: none;
+}
+a[example]:hover {
+	color: #55ffff;
+}
+
+input[join-us-button]{
+	background-color: white;
+	transition-property: background-color;
+	transition-duration: 0.35s;
+}
+input[join-us-button]:hover{
+	background-color: #55ff7f;
+}
