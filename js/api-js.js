@@ -1,5 +1,5 @@
 (function (){
-	var bar=document.createElement("div");bar.id="topbar";bar.innerHTML=`<ul><li><a href="index.html" class="n-a logo">TechPot Studio</a></li><li><a href="discord.html" class="n-a">社区</a></li><li><a href="command-online-editor.html" class="n-a">指令</a></li></ul>`;document.body.appendChild(bar);
+	var bar=document.createElement("div");bar.id="topbar";bar.innerHTML=`<ul><li><a href="index.html" class="n-a logo">TechPot Studio</a></li><li><a href="discord.html" class="n-a">社区</a></li><!--<li><a href="command-online-editor.html" class="n-a">指令</a></li>--></ul>`;document.body.appendChild(bar);
 })();
 
 doc = {
